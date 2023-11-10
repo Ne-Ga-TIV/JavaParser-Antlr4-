@@ -1,0 +1,75 @@
+[
+{
+    "type": "program",
+    "text": "classMain{publicstaticvoidmain(String[]args){intfirst=10;System.out.println(first+\" + \"+second+\" = \"+sum);}}",
+    "child_0": {
+        "type": "classDeclaration",
+        "text": "classMain{publicstaticvoidmain(String[]args){intfirst=10;System.out.println(first+\" + \"+second+\" = \"+sum);}}",
+        "child_3": {
+            "type": "mainMethod",
+            "text": "publicstaticvoidmain(String[]args){intfirst=10;System.out.println(first+\" + \"+second+\" = \"+sum);}",
+            "child_10": {
+                "type": "statement",
+                "text": "intfirst=10;",
+                "child_0": {
+                    "type": "variableDeclaration",
+                    "text": "intfirst=10;",
+                    "child_0": {
+                        "type": "type",
+                        "text": "int"
+                    },
+                    "child_3": {
+                        "type": "expression",
+                        "text": "10"
+                    }
+                }
+            },
+            "child_11": {
+                "type": "statement",
+                "text": "System.out.println(first+\" + \"+second+\" = \"+sum);",
+                "child_0": {
+                    "type": "printStatement",
+                    "text": "System.out.println(first+\" + \"+second+\" = \"+sum);",
+                    "child_3": {
+                        "type": "expression",
+                        "text": "first+\" + \"+second+\" = \"+sum",
+                        "child_0": {
+                            "type": "expression",
+                            "text": "first+\" + \"+second+\" = \"",
+                            "child_0": {
+                                "type": "expression",
+                                "text": "first+\" + \"+second",
+                                "child_0": {
+                                    "type": "expression",
+                                    "text": "first+\" + \"",
+                                    "child_0": {
+                                        "type": "expression",
+                                        "text": "first"
+                                    },
+                                    "child_2": {
+                                        "type": "expression",
+                                        "text": "\" + \""
+                                    }
+                                },
+                                "child_2": {
+                                    "type": "expression",
+                                    "text": "second"
+                                }
+                            },
+                            "child_2": {
+                                "type": "expression",
+                                "text": "\" = \""
+                            }
+                        },
+                        "child_2": {
+                            "type": "expression",
+                            "text": "sum"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+  
+]

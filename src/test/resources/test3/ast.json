@@ -1,0 +1,235 @@
+[
+{
+    "type": "program",
+    "text": "classMain{publicstaticvoidmain(String[]args){intn1=81,n2=153;intgcd=1;for(inti=1;i<=n1&&i<=n2;++i){if(n1%i==0&&n2%i==0)gcd=i;}System.out.println(\"GCD of \"+n1+\" and \"+n2+\" is \"+gcd);}}",
+    "child_0": {
+        "type": "classDeclaration",
+        "text": "classMain{publicstaticvoidmain(String[]args){intn1=81,n2=153;intgcd=1;for(inti=1;i<=n1&&i<=n2;++i){if(n1%i==0&&n2%i==0)gcd=i;}System.out.println(\"GCD of \"+n1+\" and \"+n2+\" is \"+gcd);}}",
+        "child_3": {
+            "type": "mainMethod",
+            "text": "publicstaticvoidmain(String[]args){intn1=81,n2=153;intgcd=1;for(inti=1;i<=n1&&i<=n2;++i){if(n1%i==0&&n2%i==0)gcd=i;}System.out.println(\"GCD of \"+n1+\" and \"+n2+\" is \"+gcd);}",
+            "child_10": {
+                "type": "statement",
+                "text": "intn1=81,n2=153;",
+                "child_0": {
+                    "type": "variableDeclaration",
+                    "text": "intn1=81,n2=153;",
+                    "child_0": {
+                        "type": "type",
+                        "text": "int"
+                    },
+                    "child_3": {
+                        "type": "expression",
+                        "text": "81"
+                    },
+                    "child_5": {
+                        "type": "assignment",
+                        "text": "n2=153;",
+                        "child_2": {
+                            "type": "expression",
+                            "text": "153"
+                        }
+                    }
+                }
+            },
+            "child_11": {
+                "type": "statement",
+                "text": "intgcd=1;",
+                "child_0": {
+                    "type": "variableDeclaration",
+                    "text": "intgcd=1;",
+                    "child_0": {
+                        "type": "type",
+                        "text": "int"
+                    },
+                    "child_3": {
+                        "type": "expression",
+                        "text": "1"
+                    }
+                }
+            },
+            "child_12": {
+                "type": "statement",
+                "text": "for(inti=1;i<=n1&&i<=n2;++i){if(n1%i==0&&n2%i==0)gcd=i;}",
+                "child_0": {
+                    "type": "forStatement",
+                    "text": "for(inti=1;i<=n1&&i<=n2;++i){if(n1%i==0&&n2%i==0)gcd=i;}",
+                    "child_2": {
+                        "type": "forControl",
+                        "text": "inti=1;i<=n1&&i<=n2;++i",
+                        "child_0": {
+                            "type": "variableDeclaration",
+                            "text": "inti=1;",
+                            "child_0": {
+                                "type": "type",
+                                "text": "int"
+                            },
+                            "child_3": {
+                                "type": "expression",
+                                "text": "1"
+                            }
+                        },
+                        "child_1": {
+                            "type": "expression",
+                            "text": "i<=n1&&i<=n2",
+                            "child_0": {
+                                "type": "expression",
+                                "text": "i<=n1&&i",
+                                "child_0": {
+                                    "type": "expression",
+                                    "text": "i<=n1",
+                                    "child_0": {
+                                        "type": "expression",
+                                        "text": "i"
+                                    },
+                                    "child_2": {
+                                        "type": "expression",
+                                        "text": "n1"
+                                    }
+                                },
+                                "child_2": {
+                                    "type": "expression",
+                                    "text": "i"
+                                }
+                            },
+                            "child_2": {
+                                "type": "expression",
+                                "text": "n2"
+                            }
+                        },
+                        "child_3": {
+                            "type": "expression",
+                            "text": "++i",
+                            "child_0": {
+                                "type": "increments",
+                                "text": "++"
+                            }
+                        }
+                    },
+                    "child_4": {
+                        "type": "block",
+                        "text": "{if(n1%i==0&&n2%i==0)gcd=i;}",
+                        "child_1": {
+                            "type": "statement",
+                            "text": "if(n1%i==0&&n2%i==0)gcd=i;",
+                            "child_0": {
+                                "type": "ifStatement",
+                                "text": "if(n1%i==0&&n2%i==0)gcd=i;",
+                                "child_2": {
+                                    "type": "ifExpression",
+                                    "text": "n1%i==0&&n2%i==0",
+                                    "child_0": {
+                                        "type": "expression",
+                                        "text": "n1%i==0&&n2%i",
+                                        "child_0": {
+                                            "type": "expression",
+                                            "text": "n1%i==0&&n2",
+                                            "child_0": {
+                                                "type": "expression",
+                                                "text": "n1%i==0",
+                                                "child_0": {
+                                                    "type": "expression",
+                                                    "text": "n1%i",
+                                                    "child_0": {
+                                                        "type": "expression",
+                                                        "text": "n1"
+                                                    },
+                                                    "child_2": {
+                                                        "type": "expression",
+                                                        "text": "i"
+                                                    }
+                                                },
+                                                "child_2": {
+                                                    "type": "expression",
+                                                    "text": "0"
+                                                }
+                                            },
+                                            "child_2": {
+                                                "type": "expression",
+                                                "text": "n2"
+                                            }
+                                        },
+                                        "child_2": {
+                                            "type": "expression",
+                                            "text": "i"
+                                        }
+                                    },
+                                    "child_2": {
+                                        "type": "expression",
+                                        "text": "0"
+                                    }
+                                },
+                                "child_4": {
+                                    "type": "statement",
+                                    "text": "gcd=i;",
+                                    "child_0": {
+                                        "type": "assignment",
+                                        "text": "gcd=i;",
+                                        "child_2": {
+                                            "type": "expression",
+                                            "text": "i"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "child_13": {
+                "type": "statement",
+                "text": "System.out.println(\"GCD of \"+n1+\" and \"+n2+\" is \"+gcd);",
+                "child_0": {
+                    "type": "printStatement",
+                    "text": "System.out.println(\"GCD of \"+n1+\" and \"+n2+\" is \"+gcd);",
+                    "child_3": {
+                        "type": "expression",
+                        "text": "\"GCD of \"+n1+\" and \"+n2+\" is \"+gcd",
+                        "child_0": {
+                            "type": "expression",
+                            "text": "\"GCD of \"+n1+\" and \"+n2+\" is \"",
+                            "child_0": {
+                                "type": "expression",
+                                "text": "\"GCD of \"+n1+\" and \"+n2",
+                                "child_0": {
+                                    "type": "expression",
+                                    "text": "\"GCD of \"+n1+\" and \"",
+                                    "child_0": {
+                                        "type": "expression",
+                                        "text": "\"GCD of \"+n1",
+                                        "child_0": {
+                                            "type": "expression",
+                                            "text": "\"GCD of \""
+                                        },
+                                        "child_2": {
+                                            "type": "expression",
+                                            "text": "n1"
+                                        }
+                                    },
+                                    "child_2": {
+                                        "type": "expression",
+                                        "text": "\" and \""
+                                    }
+                                },
+                                "child_2": {
+                                    "type": "expression",
+                                    "text": "n2"
+                                }
+                            },
+                            "child_2": {
+                                "type": "expression",
+                                "text": "\" is \""
+                            }
+                        },
+                        "child_2": {
+                            "type": "expression",
+                            "text": "gcd"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+  
+]

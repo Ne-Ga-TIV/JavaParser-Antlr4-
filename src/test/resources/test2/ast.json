@@ -1,0 +1,243 @@
+[
+{
+    "type": "program",
+    "text": "publicclassMain{publicstaticvoidmain(String[]args){intyear=1900;booleanleap=false;if(year%4==0){if(year%100==0){if(year%400==0)leap=true;elseleap=false;}elseleap=true;}elseleap=false;if(leap)System.out.println(year+\" is a leap year.\");elseSystem.out.println(year+\" is not a leap year.\");}}",
+    "child_0": {
+        "type": "classDeclaration",
+        "text": "publicclassMain{publicstaticvoidmain(String[]args){intyear=1900;booleanleap=false;if(year%4==0){if(year%100==0){if(year%400==0)leap=true;elseleap=false;}elseleap=true;}elseleap=false;if(leap)System.out.println(year+\" is a leap year.\");elseSystem.out.println(year+\" is not a leap year.\");}}",
+        "child_0": {
+            "type": "accessModifiers",
+            "text": "public"
+        },
+        "child_4": {
+            "type": "mainMethod",
+            "text": "publicstaticvoidmain(String[]args){intyear=1900;booleanleap=false;if(year%4==0){if(year%100==0){if(year%400==0)leap=true;elseleap=false;}elseleap=true;}elseleap=false;if(leap)System.out.println(year+\" is a leap year.\");elseSystem.out.println(year+\" is not a leap year.\");}",
+            "child_10": {
+                "type": "statement",
+                "text": "intyear=1900;",
+                "child_0": {
+                    "type": "variableDeclaration",
+                    "text": "intyear=1900;",
+                    "child_0": {
+                        "type": "type",
+                        "text": "int"
+                    },
+                    "child_3": {
+                        "type": "expression",
+                        "text": "1900"
+                    }
+                }
+            },
+            "child_11": {
+                "type": "statement",
+                "text": "booleanleap=false;",
+                "child_0": {
+                    "type": "variableDeclaration",
+                    "text": "booleanleap=false;",
+                    "child_0": {
+                        "type": "type",
+                        "text": "boolean"
+                    },
+                    "child_3": {
+                        "type": "expression",
+                        "text": "false"
+                    }
+                }
+            },
+            "child_12": {
+                "type": "statement",
+                "text": "if(year%4==0){if(year%100==0){if(year%400==0)leap=true;elseleap=false;}elseleap=true;}elseleap=false;",
+                "child_0": {
+                    "type": "ifStatement",
+                    "text": "if(year%4==0){if(year%100==0){if(year%400==0)leap=true;elseleap=false;}elseleap=true;}elseleap=false;",
+                    "child_2": {
+                        "type": "ifExpression",
+                        "text": "year%4==0",
+                        "child_0": {
+                            "type": "expression",
+                            "text": "year%4",
+                            "child_0": {
+                                "type": "expression",
+                                "text": "year"
+                            },
+                            "child_2": {
+                                "type": "expression",
+                                "text": "4"
+                            }
+                        },
+                        "child_2": {
+                            "type": "expression",
+                            "text": "0"
+                        }
+                    },
+                    "child_4": {
+                        "type": "block",
+                        "text": "{if(year%100==0){if(year%400==0)leap=true;elseleap=false;}elseleap=true;}",
+                        "child_1": {
+                            "type": "statement",
+                            "text": "if(year%100==0){if(year%400==0)leap=true;elseleap=false;}elseleap=true;",
+                            "child_0": {
+                                "type": "ifStatement",
+                                "text": "if(year%100==0){if(year%400==0)leap=true;elseleap=false;}elseleap=true;",
+                                "child_2": {
+                                    "type": "ifExpression",
+                                    "text": "year%100==0",
+                                    "child_0": {
+                                        "type": "expression",
+                                        "text": "year%100",
+                                        "child_0": {
+                                            "type": "expression",
+                                            "text": "year"
+                                        },
+                                        "child_2": {
+                                            "type": "expression",
+                                            "text": "100"
+                                        }
+                                    },
+                                    "child_2": {
+                                        "type": "expression",
+                                        "text": "0"
+                                    }
+                                },
+                                "child_4": {
+                                    "type": "block",
+                                    "text": "{if(year%400==0)leap=true;elseleap=false;}",
+                                    "child_1": {
+                                        "type": "statement",
+                                        "text": "if(year%400==0)leap=true;elseleap=false;",
+                                        "child_0": {
+                                            "type": "ifStatement",
+                                            "text": "if(year%400==0)leap=true;elseleap=false;",
+                                            "child_2": {
+                                                "type": "ifExpression",
+                                                "text": "year%400==0",
+                                                "child_0": {
+                                                    "type": "expression",
+                                                    "text": "year%400",
+                                                    "child_0": {
+                                                        "type": "expression",
+                                                        "text": "year"
+                                                    },
+                                                    "child_2": {
+                                                        "type": "expression",
+                                                        "text": "400"
+                                                    }
+                                                },
+                                                "child_2": {
+                                                    "type": "expression",
+                                                    "text": "0"
+                                                }
+                                            },
+                                            "child_4": {
+                                                "type": "statement",
+                                                "text": "leap=true;",
+                                                "child_0": {
+                                                    "type": "assignment",
+                                                    "text": "leap=true;",
+                                                    "child_2": {
+                                                        "type": "expression",
+                                                        "text": "true"
+                                                    }
+                                                }
+                                            },
+                                            "child_6": {
+                                                "type": "statement",
+                                                "text": "leap=false;",
+                                                "child_0": {
+                                                    "type": "assignment",
+                                                    "text": "leap=false;",
+                                                    "child_2": {
+                                                        "type": "expression",
+                                                        "text": "false"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "child_6": {
+                                    "type": "statement",
+                                    "text": "leap=true;",
+                                    "child_0": {
+                                        "type": "assignment",
+                                        "text": "leap=true;",
+                                        "child_2": {
+                                            "type": "expression",
+                                            "text": "true"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "child_6": {
+                        "type": "statement",
+                        "text": "leap=false;",
+                        "child_0": {
+                            "type": "assignment",
+                            "text": "leap=false;",
+                            "child_2": {
+                                "type": "expression",
+                                "text": "false"
+                            }
+                        }
+                    }
+                }
+            },
+            "child_13": {
+                "type": "statement",
+                "text": "if(leap)System.out.println(year+\" is a leap year.\");elseSystem.out.println(year+\" is not a leap year.\");",
+                "child_0": {
+                    "type": "ifStatement",
+                    "text": "if(leap)System.out.println(year+\" is a leap year.\");elseSystem.out.println(year+\" is not a leap year.\");",
+                    "child_2": {
+                        "type": "ifExpression",
+                        "text": "leap"
+                    },
+                    "child_4": {
+                        "type": "statement",
+                        "text": "System.out.println(year+\" is a leap year.\");",
+                        "child_0": {
+                            "type": "printStatement",
+                            "text": "System.out.println(year+\" is a leap year.\");",
+                            "child_3": {
+                                "type": "expression",
+                                "text": "year+\" is a leap year.\"",
+                                "child_0": {
+                                    "type": "expression",
+                                    "text": "year"
+                                },
+                                "child_2": {
+                                    "type": "expression",
+                                    "text": "\" is a leap year.\""
+                                }
+                            }
+                        }
+                    },
+                    "child_6": {
+                        "type": "statement",
+                        "text": "System.out.println(year+\" is not a leap year.\");",
+                        "child_0": {
+                            "type": "printStatement",
+                            "text": "System.out.println(year+\" is not a leap year.\");",
+                            "child_3": {
+                                "type": "expression",
+                                "text": "year+\" is not a leap year.\"",
+                                "child_0": {
+                                    "type": "expression",
+                                    "text": "year"
+                                },
+                                "child_2": {
+                                    "type": "expression",
+                                    "text": "\" is not a leap year.\""
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+  
+]

@@ -1,0 +1,271 @@
+[
+{
+    "type": "program",
+    "text": "publicclassPrime{publicstaticvoidmain(String[]args){intlow=20,high=50;while(low<high){if(checkPrimeNumber(low))System.out.print(low+\" \");++low;}}publicstaticbooleancheckPrimeNumber(intnum){booleanflag=true;for(inti=2;i<=num/2;++i){if(num%i==0){flag=false;break;}}returnflag;}}",
+    "child_0": {
+        "type": "classDeclaration",
+        "text": "publicclassPrime{publicstaticvoidmain(String[]args){intlow=20,high=50;while(low<high){if(checkPrimeNumber(low))System.out.print(low+\" \");++low;}}publicstaticbooleancheckPrimeNumber(intnum){booleanflag=true;for(inti=2;i<=num/2;++i){if(num%i==0){flag=false;break;}}returnflag;}}",
+        "child_0": {
+            "type": "accessModifiers",
+            "text": "public"
+        },
+        "child_4": {
+            "type": "mainMethod",
+            "text": "publicstaticvoidmain(String[]args){intlow=20,high=50;while(low<high){if(checkPrimeNumber(low))System.out.print(low+\" \");++low;}}",
+            "child_10": {
+                "type": "statement",
+                "text": "intlow=20,high=50;",
+                "child_0": {
+                    "type": "variableDeclaration",
+                    "text": "intlow=20,high=50;",
+                    "child_0": {
+                        "type": "type",
+                        "text": "int"
+                    },
+                    "child_3": {
+                        "type": "expression",
+                        "text": "20"
+                    },
+                    "child_5": {
+                        "type": "assignment",
+                        "text": "high=50;",
+                        "child_2": {
+                            "type": "expression",
+                            "text": "50"
+                        }
+                    }
+                }
+            },
+            "child_11": {
+                "type": "statement",
+                "text": "while(low<high){if(checkPrimeNumber(low))System.out.print(low+\" \");++low;}",
+                "child_0": {
+                    "type": "whileStatement",
+                    "text": "while(low<high){if(checkPrimeNumber(low))System.out.print(low+\" \");++low;}",
+                    "child_2": {
+                        "type": "expression",
+                        "text": "low<high",
+                        "child_0": {
+                            "type": "expression",
+                            "text": "low"
+                        },
+                        "child_2": {
+                            "type": "expression",
+                            "text": "high"
+                        }
+                    },
+                    "child_4": {
+                        "type": "block",
+                        "text": "{if(checkPrimeNumber(low))System.out.print(low+\" \");++low;}",
+                        "child_1": {
+                            "type": "statement",
+                            "text": "if(checkPrimeNumber(low))System.out.print(low+\" \");",
+                            "child_0": {
+                                "type": "ifStatement",
+                                "text": "if(checkPrimeNumber(low))System.out.print(low+\" \");",
+                                "child_2": {
+                                    "type": "ifExpression",
+                                    "text": "checkPrimeNumber(low)",
+                                    "child_0": {
+                                        "type": "function",
+                                        "text": "checkPrimeNumber(low)",
+                                        "child_2": {
+                                            "type": "expression",
+                                            "text": "low"
+                                        }
+                                    }
+                                },
+                                "child_4": {
+                                    "type": "statement",
+                                    "text": "System.out.print(low+\" \");",
+                                    "child_0": {
+                                        "type": "printStatement",
+                                        "text": "System.out.print(low+\" \");",
+                                        "child_3": {
+                                            "type": "expression",
+                                            "text": "low+\" \"",
+                                            "child_0": {
+                                                "type": "expression",
+                                                "text": "low"
+                                            },
+                                            "child_2": {
+                                                "type": "expression",
+                                                "text": "\" \""
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "child_2": {
+                            "type": "statement",
+                            "text": "++low;",
+                            "child_0": {
+                                "type": "increments",
+                                "text": "++"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "child_5": {
+            "type": "medhotDecalration",
+            "text": "publicstaticbooleancheckPrimeNumber(intnum){booleanflag=true;for(inti=2;i<=num/2;++i){if(num%i==0){flag=false;break;}}returnflag;}",
+            "child_0": {
+                "type": "accessModifiers",
+                "text": "public"
+            },
+            "child_2": {
+                "type": "type",
+                "text": "boolean"
+            },
+            "child_5": {
+                "type": "medtotArgsVariable",
+                "text": "intnum",
+                "child_0": {
+                    "type": "type",
+                    "text": "int"
+                }
+            },
+            "child_7": {
+                "type": "block",
+                "text": "{booleanflag=true;for(inti=2;i<=num/2;++i){if(num%i==0){flag=false;break;}}returnflag;}",
+                "child_1": {
+                    "type": "statement",
+                    "text": "booleanflag=true;",
+                    "child_0": {
+                        "type": "variableDeclaration",
+                        "text": "booleanflag=true;",
+                        "child_0": {
+                            "type": "type",
+                            "text": "boolean"
+                        },
+                        "child_3": {
+                            "type": "expression",
+                            "text": "true"
+                        }
+                    }
+                },
+                "child_2": {
+                    "type": "statement",
+                    "text": "for(inti=2;i<=num/2;++i){if(num%i==0){flag=false;break;}}",
+                    "child_0": {
+                        "type": "forStatement",
+                        "text": "for(inti=2;i<=num/2;++i){if(num%i==0){flag=false;break;}}",
+                        "child_2": {
+                            "type": "forControl",
+                            "text": "inti=2;i<=num/2;++i",
+                            "child_0": {
+                                "type": "variableDeclaration",
+                                "text": "inti=2;",
+                                "child_0": {
+                                    "type": "type",
+                                    "text": "int"
+                                },
+                                "child_3": {
+                                    "type": "expression",
+                                    "text": "2"
+                                }
+                            },
+                            "child_1": {
+                                "type": "expression",
+                                "text": "i<=num/2",
+                                "child_0": {
+                                    "type": "expression",
+                                    "text": "i<=num",
+                                    "child_0": {
+                                        "type": "expression",
+                                        "text": "i"
+                                    },
+                                    "child_2": {
+                                        "type": "expression",
+                                        "text": "num"
+                                    }
+                                },
+                                "child_2": {
+                                    "type": "expression",
+                                    "text": "2"
+                                }
+                            },
+                            "child_3": {
+                                "type": "expression",
+                                "text": "++i",
+                                "child_0": {
+                                    "type": "increments",
+                                    "text": "++"
+                                }
+                            }
+                        },
+                        "child_4": {
+                            "type": "block",
+                            "text": "{if(num%i==0){flag=false;break;}}",
+                            "child_1": {
+                                "type": "statement",
+                                "text": "if(num%i==0){flag=false;break;}",
+                                "child_0": {
+                                    "type": "ifStatement",
+                                    "text": "if(num%i==0){flag=false;break;}",
+                                    "child_2": {
+                                        "type": "ifExpression",
+                                        "text": "num%i==0",
+                                        "child_0": {
+                                            "type": "expression",
+                                            "text": "num%i",
+                                            "child_0": {
+                                                "type": "expression",
+                                                "text": "num"
+                                            },
+                                            "child_2": {
+                                                "type": "expression",
+                                                "text": "i"
+                                            }
+                                        },
+                                        "child_2": {
+                                            "type": "expression",
+                                            "text": "0"
+                                        }
+                                    },
+                                    "child_4": {
+                                        "type": "block",
+                                        "text": "{flag=false;break;}",
+                                        "child_1": {
+                                            "type": "statement",
+                                            "text": "flag=false;",
+                                            "child_0": {
+                                                "type": "assignment",
+                                                "text": "flag=false;",
+                                                "child_2": {
+                                                    "type": "expression",
+                                                    "text": "false"
+                                                }
+                                            }
+                                        },
+                                        "child_2": {
+                                            "type": "statement",
+                                            "text": "break;",
+                                            "child_0": {
+                                                "type": "keyCicleWords",
+                                                "text": "break;"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "child_3": {
+                    "type": "statement",
+                    "text": "returnflag;",
+                    "child_0": {
+                        "type": "returt",
+                        "text": "returnflag;"
+                    }
+                }
+            }
+        }
+    }
+}
+  
+]
